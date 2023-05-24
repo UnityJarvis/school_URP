@@ -6,16 +6,15 @@ namespace InuCom.SchoolVR.physics
     {
         public class LuxMeter : MonoBehaviour
         {
-            internal static void LuxMeterReading(Transform rayOrigin, TMPro.TextMeshPro luxMeterReading3DText)
+            internal static TMPro.TextMeshPro LuxMeterReading(Transform rayOrigin, TMPro.TextMeshPro luxMeterReading3DText)
             {
                 RaycastHit hit;
                 if (Physics.Raycast(rayOrigin.position, rayOrigin.transform.forward,out hit,10,11))
                 {
-                    print("Found " + hit.collider.name + " at " + hit.distance);
-                    luxMeterReading3DText.text = (hit.distance * 100).ToString("0.0") + " LUX";
+                    luxMeterReading3DText.text = ((1/hit.distance) * 100).ToString("00") + " LUX";
                 }
-
                 Debug.DrawRay(rayOrigin.transform.position, rayOrigin.transform.forward, Color.red);
+                return luxMeterReading3DText;
             }
         }
     }
