@@ -1,21 +1,17 @@
 using UnityEngine;
 
-namespace lesson3
+namespace InuCom.SchoolVR.physics
 {
-    public class TorchLineRenderer : MonoBehaviour
+    namespace LightAndMatter.lesson_3
     {
-        LineRenderer lineRenderer;
-        public Transform p1, p2;
-        private void Start()
+        public class TorchLineRenderer : MonoBehaviour
         {
-            lineRenderer = GetComponent<LineRenderer>();
-            lineRenderer.enabled = true;
-            lineRenderer.SetPosition(0, p1.position);
-            lineRenderer.SetPosition(1, p2.position);
-        }
-        private void Update()
-        {
-            Debug.DrawRay(p1.transform.position, p1.transform.forward, Color.red);
+            internal static void torchRenderer(LineRenderer lineRendererComponent, Transform p1, Transform p2)
+            {
+                lineRendererComponent.enabled = true;
+                lineRendererComponent.SetPosition(0, p1.position);
+                lineRendererComponent.SetPosition(1, p2.position);
+            }
         }
     }
 }
