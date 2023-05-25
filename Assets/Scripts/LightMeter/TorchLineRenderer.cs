@@ -4,7 +4,7 @@ namespace InuCom.SchoolVR.physics
 {
     namespace LightAndMatter.lesson_3
     {
-        public class TorchLineRenderer : MonoBehaviour
+        public class TorchLineRenderer
         {
             internal static void torchRenderer(LineRenderer lineRendererComponent, Transform p1, Transform p2)
             {

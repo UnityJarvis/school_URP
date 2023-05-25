@@ -4,7 +4,7 @@ namespace InuCom.SchoolVR.physics
 {
     namespace LightAndMatter.lesson_3
     {
-        public class LuxMeter : MonoBehaviour
+        public class LuxMeter
         {
             internal static TMPro.TextMeshPro LuxMeterReading(Transform rayOrigin, TMPro.TextMeshPro luxMeterReading3DText)
             {
