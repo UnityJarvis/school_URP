@@ -310,6 +310,7 @@ Transform:
   - {fileID: 1188722708}
   - {fileID: 526907296}
   - {fileID: 1699463267}
+  - {fileID: 1652627006}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2828,6 +2829,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647496319}
   m_CullTransparentMesh: 1
+--- !u!1 &1652627005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1652627006}
+  - component: {fileID: 1652627007}
+  m_Layer: 0
+  m_Name: UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1652627006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652627005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 104109578}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1652627007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652627005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b74d64dc88c7edf4087e2d53fd75819b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardButton: {fileID: 866195115}
+  boardInitPos: {x: -0.098, y: 1.57, z: -7.566}
+  bigBoardScale: {x: 0.0065, y: 0.006, z: 0.005}
+  smallBoardScale: {x: 0.001987383, y: 0.001834507, z: 0.001528756}
+  leftHandPos: {fileID: 1673679114}
+  worldCanvasHolderPos: {fileID: 1652957354}
+  canvasUIParent: {fileID: 1480485460}
 --- !u!1 &1652957353
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class AudioManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.G))
         {
-            UiSounds.BreakSound(audioSource, audioClipsHolder.audioClips[0]);
+            UiSounds.ClickSound(audioSource,audioClipsHolder.audioClips[0]);
         }
     }
 }
