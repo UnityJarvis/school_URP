@@ -22,6 +22,6 @@ public class UiManager : MonoBehaviour
     {
         screenBoolPos = CanvasSwitcher.togglerer;
         CanvasSwitcher.ScreenTransition(boardInitPos, bigBoardScale, smallBoardScale, leftHandPos, worldCanvasHolderPos, canvasUIParent, screenBoolPos);
-    }
+    } 
 
 }
