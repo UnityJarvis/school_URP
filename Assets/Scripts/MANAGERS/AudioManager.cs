@@ -1,15 +1,15 @@
 using UnityEngine;
 using InuCom.SchoolVR.Audio;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
+    public Button boardSwitchButton;
     public AudioClipsHolder audioClipsHolder;
     public AudioSource audioSource;
-    private void Update()
+
+    private void Start()
     {
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            UiSounds.ClickSound(audioSource,audioClipsHolder.audioClips[0]);
-        }
+        boardSwitchButton.onClick.AddListener(() => UiSounds.ClickSound(audioSource, audioClipsHolder.audioClips[0]));
     }
 }

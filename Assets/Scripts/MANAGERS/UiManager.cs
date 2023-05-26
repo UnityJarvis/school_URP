@@ -15,6 +15,7 @@ public class UiManager : MonoBehaviour
 
     private void Start()
     {
+        CanvasSwitcher.togglerer = true;                //Set Position of board to wall
         boardButton.onClick.AddListener(CanvasSwitcher.ScreenPosToggle);
     }
     private void Update()

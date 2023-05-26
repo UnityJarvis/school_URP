@@ -893,6 +893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93fe1c3057aa35346a47427308a89746, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boardSwitchButton: {fileID: 866195115}
   audioClipsHolder: {fileID: 11400000, guid: 7f4c6e0e14a78d9488517adc463fea15, type: 2}
   audioSource: {fileID: 526907295}
 --- !u!1 &537379967
@@ -2210,13 +2211,6 @@ MonoBehaviour:
   p2: {fileID: 150004288}
   luxReading: {fileID: 1984902550}
   Detector3DText: {fileID: 1940141775}
-  boardButton: {fileID: 866195115}
-  boardInitPos: {x: -0.098, y: 1.57, z: -7.566}
-  bigBoardScale: {x: 0.0065, y: 0.006, z: 0.005}
-  smallBoardScale: {x: 0.001987383, y: 0.001834507, z: 0.001528756}
-  leftHandPos: {fileID: 1673679114}
-  worldCanvasHolderPos: {fileID: 1652957354}
-  canvasUIParent: {fileID: 1480485460}
 --- !u!1 &1261801420
 GameObject:
   m_ObjectHideFlags: 0
