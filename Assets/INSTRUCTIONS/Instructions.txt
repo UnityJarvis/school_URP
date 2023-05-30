@@ -1,0 +1,10 @@
+School VR Project
+Experiment 3: LightMeter
+Steps:
+•	Grab the Detector with your right hand and drag along the light path 
+•	Check the readings on LUX Meter for light intensity
+Experiment 4: Mirror
+Steps
+•	Grab the Brush and Paint on Silver Metal   * 2 Times.
+•	If Black layer appears on silver layer, grab the layer and place it on glass
+•	Pick up the glass and turn it, to see in the mirror 
