@@ -10,7 +10,7 @@ namespace InuCom.SchoolVR.physics.LightAndMatter.lesson_4
             if(other.name == "Silver")
             {
                 i++;
-                if (i == 1)
+                if (i >= 2)
                 {
                     paintLineRendererRoot = GameObject.FindGameObjectWithTag("PaintBrushLineRendererRoot");
                     if (paintLineRendererRoot != null )
