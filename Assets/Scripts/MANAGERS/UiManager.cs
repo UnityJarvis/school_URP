@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Inucom.SchoolVR.UI;
+using InuCom.SchoolVR.physics;
 
 public class UiManager : MonoBehaviour
 {
@@ -23,5 +24,10 @@ public class UiManager : MonoBehaviour
         screenBoolPos = CanvasSwitcher.togglerer;
         CanvasSwitcher.ScreenTransition(boardInitPos, bigBoardScale, smallBoardScale, leftHandPos, worldCanvasHolderPos, canvasUIParent, screenBoolPos);
     } 
+
+    public void currentExperiment(int experimentNumber)
+    {
+        ExperimentSelector.currentExp = experimentNumber;
+    }
 
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
-using InuCom.SchoolVR.Audio;
 using UnityEngine.UI;
+using InuCom.SchoolVR.Audio;
 
 public class AudioManager : MonoBehaviour
 {

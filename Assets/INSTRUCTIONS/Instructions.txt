@@ -7,6 +7,11 @@ General Instructions:
 * Move Right Controller joystick to turn player left or right.
 * Press "A and B" from Right Controller to cycle the Current Experiment.
 
+
+UI Instructions:
+* Point the Right Controller towards the UI Board to highlight the white pointer.
+* Press and release the trigger button of right controller to select anything from UI.
+----------------------------------------------------------------------------------------------
 Experiment 2: Room Exp
 Steps:
 •	Press the Green Button to Teleport inside the room.
