@@ -22,6 +22,17 @@ public class UiManager : MonoBehaviour
     public Transform leftHandPos, worldCanvasHolderPos, canvasUIParent;
     bool screenBoolPos;
 
+
+
+
+    //--------------------------------------------------------------------------------------
+    public GameObject[] panels;
+
+    //--------------------------------------------------------------------------------------
+
+
+
+
     private void Start()
     {
         CanvasSwitcher.togglerer = true;                //Set Position of board to wall
@@ -41,4 +52,5 @@ public class UiManager : MonoBehaviour
     {
         ExperimentSelector.currentExp = experimentNumber;
     }
+
 }

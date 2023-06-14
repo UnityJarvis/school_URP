@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30146d2364d5c924fa2af52861404361, type: 3}
   m_Name: 6.1
   m_EditorClassIdentifier: 
-  buttonPrefab: {fileID: 6449201700393610225, guid: 0701afbe3c933d6499f9ab5a9f8486b2,
+  buttonPrefab: {fileID: 631897065895078834, guid: 363ff0c9beb5d104cbf8184f898a5199,
     type: 3}
   videoList:
   - {fileID: 32900000, guid: b0e4843044f0cc74cad34a6a60f6d767, type: 3}

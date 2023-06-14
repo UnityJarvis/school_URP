@@ -1,9 +1,10 @@
 using UnityEngine;
+using UnityEngine.UI;
+using BNG;
+using TMPro;
 using InuCom.SchoolVR.physics.LightAndMatter.lesson_2;
 using InuCom.SchoolVR.physics.LightAndMatter.lesson_3;
 using InuCom.SchoolVR.physics.LightAndMatter.lesson_4;
-using TMPro;
-using BNG;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
     [Space(10)]
     [Header("Debugging")]
     public float fps;
-    public TMP_Text fpsText;
+    public Text fpsText;
     
     public static GameManager instance;
     private void Awake()

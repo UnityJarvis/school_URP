@@ -1,5 +1,5 @@
-using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Video;
 
 namespace InuCom.SchoolVR.UI.Videos
@@ -12,7 +12,7 @@ namespace InuCom.SchoolVR.UI.Videos
             for (int i = 0; i < videoScriptableObj.videoList.Count; i++)
             {
                 var videobutton = Instantiate(videoScriptableObj.buttonPrefab, scrollView_Context);
-                TMP_Text text = videobutton.GetComponentInChildren<TMP_Text>();
+                Text text = videobutton.GetComponentInChildren<Text>();
                 //text.text = videoScriptableObj.videoList[i].clip.name;
                 text.text = (i+1).ToString() + " - " + videoScriptableObj.videoList[i].name;
                 videobutton.onClick.AddListener(() => { OnButtonPress(videoScriptableObj, videoPlayer,text.text); });
