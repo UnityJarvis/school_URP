@@ -1,6 +1,6 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class InsideRoomFunctionalityController : MonoBehaviour
 {
@@ -24,8 +24,8 @@ public class InsideRoomFunctionalityController : MonoBehaviour
     }
     public void lightIntensity()
     {
-        roomMirrorMaterial.color = new Color(roomMirrorMaterial.color.r, roomMirrorMaterial.color.g, roomMirrorMaterial.color.b, propsSlider.value);
-        propsRoomLight.intensity = (1f - propsSlider.value) * 10;
+        roomMirrorMaterial.color = new Color(roomMirrorMaterial.color.r, roomMirrorMaterial.color.g, roomMirrorMaterial.color.b, propsSlider.value); // Mirror Material Alpha
+        propsRoomLight.intensity = (1f - propsSlider.value);
     }
     public void playerLightIntensity()
     {
