@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.Video;
 using InuCom.SchoolVR.UI.Videos;
 using Inucom.SchoolVR.UI;
+using Unity.VisualScripting;
 
 public class UIMan : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class UIMan : MonoBehaviour
     public List<ContentSizeFitter> videoPlayerContextPanel;
     public VideoPlayer videoPlayerComponent;
     public VideoLessons[] VideoLessonsArray;
+
+    public List<RectTransform> contextRectTransform;
+    public ScrollRect LeftButtonsScrollView;
 
     [Space(5)]
     [Header("Board Position Toggle")]
@@ -37,6 +41,8 @@ public class UIMan : MonoBehaviour
         foreach (Button btn in startPanelButtons) { btn.onClick.AddListener(() => StartPanelButtonFunction(btn.name)); }
         allPanels[1].GetComponentsInChildren(experimentPanelButtons);
         foreach (Button btn in experimentPanelButtons) { btn.onClick.AddListener(() => ExperimentPanelButtonFunction(int.Parse(btn.name))); }
+
+        viewport.GetComponentsInChildren(contextRectTransform);
 
         viewport.GetComponentsInChildren(videoPlayerContextPanel);
 
@@ -69,5 +75,6 @@ public class UIMan : MonoBehaviour
         allPanels[2].SetActive(true);
         foreach (ContentSizeFitter ctx in videoPlayerContextPanel) { ctx.gameObject.SetActive(false); }
         videoPlayerContextPanel[contextIndex - 1].gameObject.SetActive(true);
+        LeftButtonsScrollView.content = contextRectTransform[contextIndex ];
     }
 }
