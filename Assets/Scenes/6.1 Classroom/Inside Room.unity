@@ -250,9 +250,9 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 1.58
-  m_SpotAngle: 56.26065
-  m_InnerSpotAngle: 32.87805
+  m_Range: 1.68
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -307,7 +307,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183785062}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.25, y: 0.49, z: 2.45}
+  m_LocalPosition: {x: -0.25, y: 0.49, z: 1.995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -577,6 +577,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ROOM
+      objectReference: {fileID: 0}
+    - target: {fileID: 2066192721484620781, guid: 4d5e335306358f74ebedf429f58138b7,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2066192721811810102, guid: 4d5e335306358f74ebedf429f58138b7,
         type: 3}
@@ -2126,9 +2131,9 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 2
-  m_SpotAngle: 60.46408
-  m_InnerSpotAngle: 35.678722
+  m_Range: 4
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
