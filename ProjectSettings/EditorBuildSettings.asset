@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/6.1 Classroom/Inside Room.unity
     guid: dd65203458909a34980b4e26d44ef5c2
+  - enabled: 1
+    path: Assets/Z_NEW CLASSROOM/NEW CLASSROOM.unity
+    guid: 31c3587119b503549bf63cfbe573690b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9c892aa891940c44d85f363d176cede2,
       type: 2}
