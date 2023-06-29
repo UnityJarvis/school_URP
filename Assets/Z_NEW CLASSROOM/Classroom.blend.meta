@@ -1,14 +1,59 @@
 fileFormatVersion: 2
-guid: 4a169bc369b6f844b9e9ddda42d07bac
+guid: cc35fd3c2f3e7a4498f290bafb1562c1
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BOARD
+    second: {fileID: 2100000, guid: ba921f9e099863f4598c3fa260634ae4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling Light
+    second: {fileID: 2100000, guid: f704a7bc0cc418c4b8b0f2a3258f8bbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling Light Emit
+    second: {fileID: 2100000, guid: e5a1ec0b98b83a345816fc6a43074e07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: fc5b0500dc2786b44b6f7ad0df2ac7f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panel Light Emission
+    second: {fileID: 2100000, guid: 194c3970e0b16424ebfd317004f1e7af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strips Emit
+    second: {fileID: 2100000, guid: 4d725d29780798d4cba5f6c4c9d7b07b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table Emit
+    second: {fileID: 2100000, guid: 88d2184f88c689747881ace6b86498e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table Mat
+    second: {fileID: 2100000, guid: bab046017b3c8cd4ca44396998019e7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: 51866b1d292c31147a75ead6e118cd77, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

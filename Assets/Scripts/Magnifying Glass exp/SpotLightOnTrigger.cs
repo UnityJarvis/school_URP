@@ -12,7 +12,8 @@ public class SpotLightOnTrigger : MonoBehaviour
     {
         if (other.tag == "Detecter")
         {
-            TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, 0);
+            //TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, 0);
+            TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, spotLightt.spotAngle);
         }
 
     }
@@ -20,7 +21,8 @@ public class SpotLightOnTrigger : MonoBehaviour
     {
         if (other.tag == "Detecter")
         {
-            TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, spotLightt.spotAngle);
+            //TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, spotLightt.spotAngle);
+            TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, 0);
         }
     }
 }
